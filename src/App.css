@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 550px;
+  background: #fff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.navbar {
+  background: #F55A5A;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  width: 100%;
+}
+.navbar-title {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 500;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.main-img {
+  width: 125px;
+  height: 168px;
+}
+.location-img {
+  margin-right: 4px;
+}
+.country {
+  margin-right: 12px;
+  color: #2B283A;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.google-map {
+  text-decoration: underline;
+  color: #918E9B;
+  font-size: 12px;
+  font-weight: 400;
+}
+.main-location {
+  color: #2B283A;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.main-date {
+  color: #2B283A;
+  font-size: 12px;
+  font-weight: 700;
+}
+.main-description {
+  color: #2B283A;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+.travel-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  gap: 40px;
+  
+}
